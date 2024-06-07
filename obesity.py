@@ -58,7 +58,7 @@ if st.button('Predict Obesity Level'):
     })
 
     # Load the pre-trained model
-    with open(r"C:\Users\Ganji Bhaskar\Videos\pickle classificaltion\logistic_regression.pkl", 'rb') as file:
+    with open("logistic_regression.pkl", 'rb') as file:
         pipeline = pickle.load(file)
 
     # Make prediction
